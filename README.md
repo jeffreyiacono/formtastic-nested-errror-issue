@@ -25,7 +25,7 @@ end
 ```
 ... and in the view:
 
-```
+```haml
 %h1 New Conversation
 = semantic_form_for @conversation, url: conversations_path do |form|
   = form.inputs do
@@ -50,7 +50,7 @@ end
 ```
 ... and in the view:
 
-```
+```haml
 %h1 New Conversation
 = semantic_form_for @conversation, url: conversations_path do |form|
   = form.inputs do
