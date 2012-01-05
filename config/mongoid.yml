@@ -1,0 +1,6 @@
+defaults: &defaults
+  host: localhost
+
+development:
+  <<: *defaults
+  database: formtastic_nested_errors_development
